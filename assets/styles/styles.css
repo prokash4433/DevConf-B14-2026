@@ -18,7 +18,9 @@
   }
     /* common padding */
     .container{
-   margin: 24px 100px;
+  margin: 24px 100px; 
+   max-width: 1200px;
+    
     }
 
   /* common-btn */
@@ -133,17 +135,24 @@
 /* Card-section */
 .Meet-speker{
     text-align: center;
-    margin-top: ;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 35px;
 }
+
+
 .card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
-    
+    margin-top: 40px;
     gap: 32px;
+    max-width:1000px;
+     margin:40px auto;
+     box-shadow: non;
 }
 .man-image{
-    width: 450px;
+    width: 100%;
+    /* width: 450px; */
     height: 220px;
     object-fit: cover;
     border-radius: 12px;
@@ -153,9 +162,12 @@
 
 .card-1{
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-    width:450px ;
-    height: 320px;
+    overflow: hidden;
+    /* width:450px ; */
+    width: 100%;
+    height: 320px; 
     border-radius:12px ;
+    
    
    
     
