@@ -67,7 +67,7 @@
    
    
  }
- ul{
+ .items ul{
     display: flex;
     list-style: none;
     gap: 24px;
@@ -148,7 +148,7 @@
     gap: 32px;
     max-width:1000px;
      margin:40px auto;
-     box-shadow: non;
+     box-shadow: ;
 }
 .man-image{
     width: 100%;
@@ -161,12 +161,13 @@
 
 
 .card-1{
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.1);;
     overflow: hidden;
     /* width:450px ; */
     width: 100%;
     height: 320px; 
     border-radius:12px ;
+
     
    
    
@@ -188,3 +189,80 @@ span{
     font-weight: 300;
     font-size: 10px;
 }
+
+/* secure card */
+.secure{
+    text-align: center;
+    margin-top: 80px;
+}
+.secure h2{
+ font-weight: bold;
+ font-size: 25px;
+}
+.secure{
+    font-weight:300 ;
+    font-size: 10px;
+}
+
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    margin-top: 45px;
+}
+.pricing-card-1{
+     background: #fff;
+     border: 1px solid #E5E7EB;
+    border-radius: 14px;
+    padding:32px;
+     text-align: left;
+}
+.pricing-card-2{
+     background: #0D1B2A;
+    color: #fff;
+     
+    box-shadow: 0 20px 40px rgba(0,0,0,.18);
+    border-radius: 14px;
+    padding: 28px 26px;
+
+}
+.pricinig-card-3{
+     background: #E5E7EB;
+     border: 1px solid #E5E7EB;
+    border-radius: 14px;
+    padding: 28px 26px;
+     text-align: left;
+}
+
+.pricing-grid h1{
+font-weight: bold;
+font-size: 40px;
+}
+.pricing-grid p{
+    font-weight: 300;
+    font-size: 13px;
+    color:#888888;
+}
+.standard{
+    font-weight: 300;
+    font-size: 12px;
+}
+.pricing-grid hr{
+    width: 300px;
+    margin-top: 25px;
+}
+
+.pricing-card-1 li{
+
+   
+    
+  
+    
+   
+}
+.pricing-grid ul {
+margin-top: 20px;
+padding-bottom:20px;
+}
+
