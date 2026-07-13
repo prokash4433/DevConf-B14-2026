@@ -473,13 +473,22 @@ cursor: pointer;
           margin: 0 auto;
           border: 1px solid rgba(255, 255, 255, 0.2);
         }
+        /* copy rights and policy */
         .reserved{
-            text-align: center;
-            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 70px;
+            color: #888888;
 
-            color: rgba(255, 255, 255, 0.4);
         }
-        
+        .reserved ul{
+            display: flex;
+            gap: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            list-style: none;
+            
+        }
      
         
         

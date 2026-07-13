@@ -1,0 +1,1 @@
+A modern web section on a dark background for "DevConf 2026 Hackathon", including event details (Date, Format, Team Size, Tech Stack), prize pool information, and a prominent registration button, based on the layout and content from image.
